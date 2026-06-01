@@ -1,0 +1,32 @@
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Local Application configuration
+config.json
+
+# IDE settings
+.idea/
+.vscode/
+
+# FFmpeg Executables (extremely large binaries)
+ffmpeg/
+ffmpeg.exe
+ffprobe.exe
+
+# Video & Subtitle media files (huge sizes)
+*.ts
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+*.flv
+*.srt
+*.vtt

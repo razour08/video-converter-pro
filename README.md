@@ -6,6 +6,18 @@ Designed with a premium dark theme inspired by the curated **Catppuccin Macchiat
 
 ---
 
+## 📸 Application Screenshots
+
+| 🔄 Converter Queue Dashboard | ⚙️ Advanced GPU/CPU Settings |
+| :---: | :---: |
+| ![Dashboard](assets/gui_dashboard.png) | ![Advanced Settings](assets/gui_settings.png) |
+
+| 📜 Real-Time Console Logs |
+| :---: |
+| ![Real-Time Logs](assets/gui_logs.png) |
+
+---
+
 ## 🌟 Key Features
 
 * **Sleek Catppuccin Dark Theme:** A premium, modern graphical user interface designed for visual excellence and smooth interactions.

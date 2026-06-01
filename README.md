@@ -28,6 +28,7 @@ Designed with a premium dark theme inspired by the curated **Catppuccin Macchiat
 
 1. **Python 3.8+** installed on your system.
 2. **FFmpeg** installed and added to your system PATH, or placed locally in the application folder.
+   * You can download highly optimized pre-built FFmpeg binaries directly from the official [BtbN FFmpeg Builds Releases](https://github.com/BtbN/FFmpeg-Builds/releases).
    * *If FFmpeg is not detected, the GUI will automatically prompt you with a file-browse dialog to locate `ffmpeg.exe` on your system and save it permanently.*
 
 ---
@@ -36,7 +37,7 @@ Designed with a premium dark theme inspired by the curated **Catppuccin Macchiat
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/video-converter-pro.git
+   git clone https://github.com/razour08/video-converter-pro.git
    cd video-converter-pro
    ```
 

@@ -117,6 +117,28 @@ The application automatically creates a local `config.json` in the root workspac
 
 ---
 
+## 📦 Packaging as Standalone Executable (.exe)
+
+You can compile the graphical desktop application into a standalone Windows executable (`.exe`) that runs without requiring Python to be installed.
+
+1. **Install PyInstaller:**
+   ```bash
+   pip install pyinstaller
+   ```
+
+2. **Build the Standalone EXE:**
+   Run the following command inside your terminal:
+   ```bash
+   pyinstaller --noconsole --onefile --name="VideoConverterPro" gui.py
+   ```
+   * `--noconsole` (or `-w`): Hides the background black command prompt window, launching only the beautiful GUI.
+   * `--onefile` (or `-F`): Bundles everything into a single independent `.exe` file.
+
+3. **Locate your Executable:**
+   Once completed, you will find the standalone `VideoConverterPro.exe` inside the newly created `dist/` directory in your project root!
+
+---
+
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page or submit pull requests to enhance the utility.
 
